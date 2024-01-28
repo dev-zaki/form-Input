@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms</title>
+  <!-- CSS only -->
+  <style>
+    body{
+      background-color: lightseagreen;
+      color: white;
+      font-family: sans-serif;
+    }
+    form{
+      background-color: #fff;
+      padding: 30px 20px;
+      border-radius: 3px;
+      max-width: 500px;
+      margin: 55px auto;
+      box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+    }
+    h1{
+      font-size: 32px;
+      text-align: center;
+      font-weight: 700;
+      padding-bottom:20px;
+      text-decoration: underline;
+      color:lightseagreen;
+    }
+    label{
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    input{
+      display:inline-block;
+      width: 90%;
+      padding:10px;
+      border-radius:5px;
+      border:1px solid #555;
+      margin-bottom: 20px;
+      color: gray;
+    }
+    button{
+      display:block;
+      width: 30%;
+      padding: 10px;
+      background-color: rgb(50, 168, 168);
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+    }
+    button:hover{
+      background-color: rgb(50, 168, 146);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <form action="" method="">
+    <h1>signUp</h1>
+    <div class="names">
+      <label for="firs_name">First_name</label>
+      <input type="text" name="name" placeholder="Enter your name">
+    </div>
+    <div class="email">
+      <label for="email">E-mail</label>
+      <input type="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div class="password">
+      <label for="password">Password</label>
+      <input type="text" name="password" placeholder="Enter your password" required>
+    </div>
+    <div class="c_password">
+      <label for="c_password">C_password</label>
+      <input type="password" name="c_password" placeholder="Enter confirm_password">
+    </div>
+    <button type="submit" onclick="alert('hey welcome to our page thank four your patient')">Submit</button>
+   </form>
+</body>
+</html>
