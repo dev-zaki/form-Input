@@ -1,3 +1,3 @@
-# hey if your interested in coding please use this project its abeginner friendly 
-#and it will help alot? how to use css with html 
+#hey if you want guide use thi project its abeginner friendly 
+#and it will help alot? how to use css with htmsl 
 # happy day. 
